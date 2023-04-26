@@ -1,0 +1,19 @@
+---
+- app_name: app_1
+  tables: 
+    - table1
+    - table2
+  user: "db-user"
+  password: "-pdbPass"
+  database: "database-name"
+  host: "127.0.0.1"
+  output_path: "/var/www/html/backup/app_1"
+- app_name: app_2
+  tables: 
+    - table1
+    - table2
+  user: "db-user"
+  password: "-pdbPass"
+  database: "database-name"
+  host: "127.0.0.1"
+  output_path: "/var/www/html/backup/app_2"
